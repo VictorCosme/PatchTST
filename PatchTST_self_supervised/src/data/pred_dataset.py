@@ -201,7 +201,7 @@ class Dataset_ETT_minute(Dataset):
 class Dataset_Custom(Dataset):
     def __init__(self, root_path, split='train', size=None,
                  features='S', data_path='ETTh1.csv',
-                 target='OT', scale=True, timeenc=0, freq='h',
+                 target='OT', scale=False, timeenc=0, freq='h',
                  time_col_name='date', use_time_features=False, 
                  train_split=0.7, test_split=0.2
                  ):
